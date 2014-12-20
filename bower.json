@@ -1,21 +1,27 @@
 {
   "name": "uif",
   "version": "0.0.1",
-  "private": true,
+  "main": "app/styles/main.scss",
+  "license": "MIT",
   "ignore": [
-        "source",
-        "spec",
-        ".bowerrc",
-        ".gitignore",
-        ".jshintignore",
-        ".jshintrc",
-        "bower.json",
-        "gruntfile.js",
-        "package.json",
-        "README.md",
-    ],
-  "dependencies": {
-    "jquery": "~1.11.1",
-    "modernizr": "~2.8.2"
-  }
+    "**/.*",
+    "build",
+    "speed",
+    "test",
+    "*.md",
+    "AUTHORS.txt",
+    "Gruntfile.js",
+    "package.json"
+  ],
+  "devDependencies": {
+    "sizzle": "2.1.1-jquery.2.1.2",
+    "requirejs": "2.1.10",
+    "qunit": "1.14.0",
+    "sinon": "1.8.1"
+  },
+  "keywords": [
+    "jquery",
+    "javascript",
+    "library"
+  ]
 }
