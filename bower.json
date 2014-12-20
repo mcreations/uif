@@ -1,0 +1,30 @@
+{
+  "name": "uif",
+  "version": "0.0.1"
+  "private": true,
+  "main": [
+    "app/styles/main.scss",
+  ],
+  "ignore": [
+        "source",
+        "spec",
+        ".bowerrc",
+        ".gitignore",
+        ".jshintignore",
+        ".jshintrc",
+        "bower.json",
+        "gruntfile.js",
+        "package.json",
+        "README.md",
+        ".sass-cache",
+        ".temp",
+        "bower_components",
+        "dist",
+        "node_modules",
+        "test"
+    ],
+  "dependencies": {
+    "jquery": "~1.11.1",
+    "modernizr": "~2.8.2"
+  }
+}
