@@ -2,9 +2,6 @@
   "name": "uif",
   "version": "0.0.1",
   "private": true,
-  "main": [
-    "app/styles/main.scss",
-  ],
   "ignore": [
         "source",
         "spec",
