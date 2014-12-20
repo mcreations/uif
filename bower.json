@@ -16,12 +16,6 @@
         "gruntfile.js",
         "package.json",
         "README.md",
-        ".sass-cache",
-        ".temp",
-        "bower_components",
-        "dist",
-        "node_modules",
-        "test"
     ],
   "dependencies": {
     "jquery": "~1.11.1",
