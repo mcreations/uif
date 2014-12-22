@@ -1,7 +1,7 @@
 {
   "name": "mcreations-package",
   "version": "0.0.1",
-  "main": "app/styles/main.scss",
+  "main": "assets/styles/main.scss",
   "license": "MIT",
   "ignore": [
     "**/.*",
@@ -13,11 +13,9 @@
     "Gruntfile.js",
     "package.json"
   ],
-  "devDependencies": {
-    "sizzle": "2.1.1-jquery.2.1.2",
-    "requirejs": "2.1.10",
-    "qunit": "1.14.0",
-    "sinon": "1.8.1"
+  "dependencies": {
+    "jquery": "~1.11.1",
+    "modernizr": "~2.8.2"
   },
   "keywords": [
     "jquery",
